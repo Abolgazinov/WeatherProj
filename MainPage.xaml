@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherFrontEnd.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="mainimage.jpg"
+                SemanticProperties.Description="Weather image"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Greetings you in a weather bot"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Choose your city below"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Choosing city"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Entry
+                Placeholder = "Enter your city" FontFamily="Helvetica"
+                FontSize="22" MaxLength ="40" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
