@@ -1,2 +1,2 @@
 # WeatherProj
-Pizdec
+Weather App
